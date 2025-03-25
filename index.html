@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Lookup Variable</h2>
+    <input type="text" id="lookup" value="var1" />
+
+    <h2>Replacement String</h2>
+    <textarea id="replacement"><p class="lang-translate lang-locale">var1</p></textarea>
+
+    <button id="generate-btn">GENERATE</button>
+
+    <div class="content">
+      <div class="panel">
+        <h3>Input</h3>
+        <textarea id="input" placeholder="Enter input values..."></textarea>
+      </div>
+
+      <div class="panel">
+        <h3>Output</h3>
+        <textarea id="output" readonly></textarea>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
